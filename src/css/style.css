@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Pacifico;
+    src: url('../font/Pacifico-Regular.ttf');
+}
+
+.content_main{
+    
+}
+
+/* HEADER */
+
+.content_header{
+    z-index: 10;
+}
+
+.nav_content{
+    background: linear-gradient(to right, #4a105c, #e23bbe);
+}
+
+.ptitle{
+    display: inline-block;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+.nav_links a{
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+    text-shadow: 0.1px 0.1px 3px #000;
+    font-family: 'Pacifico', cursive;
+}
+
+.nav_links a:hover{
+    color: rgb(163, 148, 175) !important;
+}
+
+
+
+/* BODY */
+
+.content_body{
+    padding: 0 !important;
+    margin-top: 63px;
+    
+}
+
+.body_about{
+    height: calc(100vh - 64px);
+}
+
+.body_features{
+    justify-content: center;
+}
+
+.bg_about_img{
+    width: 100%;
+    right: 0;
+    position: absolute;
+    height: calc(100vh - 64px);
+}
+
+.bg_fea_img{
+    width: 100%;
+    height: 50vh;
+    align-self: flex-end;
+    position: relative;
+    top: -80px;
+    z-index: 10;
+}
+
+.img_style2{
+    width: 50%;
+    
+}
+
+.img_style3{
+    width: 50%;
+    margin: 20px;
+}
+
+.img_prof{
+    width: 20vw;
+    border-radius: 360px;
+    border: solid rgb(143, 143, 143);
+}
+
+.cont_about{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 20px;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(100% 0, 100% 100%, 50% 82%, 0 100%, 0 0);
+    justify-content: flex-start;
+    z-index: 6;
+    height: 90%;
+    border-right: 10px solid #a730df;
+    border-left: 10px solid #a730df;
+}
+
+.cont_img_about{
+    display: flex;
+    justify-content: center;
+}
+
+.cont_emergent{
+    background-color: rgba(0, 0, 0, 0.507);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_login{
+    
+}
+
+.cont_figure_inactive{
+    
+}
+
+.text_about{
+    width: 100%;
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.text_features{
+    text-align: justify;
+    color: #000000;
+    padding: 0px 10px;
+}
+
+.text_load{
+    padding: 10px;
+}
+
+.title_fea{
+    font-weight: 900;
+    color: #4f3755;
+}
+
+.title_signin{
+    font-size: 30px;
+    padding-left: 30px;
+    color: rgb(117, 115, 115);
+}
+
+.row{
+    margin-right: 0px !important;
+}
+
+.col{
+    padding-right: 0px !important;
+}
+
+.col_flex{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0px !important;
+    align-items: flex-start;
+    
+}
+
+.body_features div{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    margin-top: 10px;
+    z-index: 50;
+}
+
+.div_emergent{
+    padding: 10px;
+    align-self: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #000;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.figure{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(195, 105, 247);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    display: flex !important;
+    justify-content: center;
+}
+
+.figure2{
+    width: 70%;
+    height: 70%;
+    background-color: rgb(144, 17, 218);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.figure3{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    clip-path: circle(50% at 50% 50%);
+    align-self: center;
+}
+
+.center_prof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+
+
+/* FOOTER */
+
+.content_footer{
+
+}
+
+.sp{
+    margin-right: 10px;
+}
+
+.snpadd{
+    padding: 0 !important;
+}
+
